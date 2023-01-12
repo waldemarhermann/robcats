@@ -2,9 +2,9 @@ const SearchList = (props) => {
     return (
         <div className="pa2">
             <input
-            className="pa3 ba b--green bg-lightest-blue"
+                className="pa3 ba b--light-green bg-lightest-blue"
                 type="search"
-                placeholder="type in here"
+                placeholder="Search"
                 onChange={props.searchChange}
             />
         </div>
