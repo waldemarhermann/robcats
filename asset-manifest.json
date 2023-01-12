@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/robcats/static/css/main.aef2279d.css",
+    "main.js": "/robcats/static/js/main.ab26f3d4.js",
+    "static/media/SEGA.woff": "/robcats/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
+    "index.html": "/robcats/index.html",
+    "main.aef2279d.css.map": "/robcats/static/css/main.aef2279d.css.map",
+    "main.ab26f3d4.js.map": "/robcats/static/js/main.ab26f3d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aef2279d.css",
+    "static/js/main.ab26f3d4.js"
+  ]
+}
