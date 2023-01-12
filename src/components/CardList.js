@@ -1,21 +1,20 @@
 import Card from './Card';
 
-const CardList = ({cats}) => {
-
-    const arrayCards = cats.map((userCat, i) => {
-        return (
-            <Card
-                key={cats[i].name}
-                id={cats[i].id}
-                name={cats[i].name}
-                email={cats[i].email}
-            />
-        )
-    })
-
+const CardList = (props) => {
     return (
         <div>
-            {arrayCards}
+            {
+                props.catCats.map((userCats, i) => {
+                    return (
+                        <Card 
+                            key={props.catCats[i].name}
+                            id={props.catCats[i].id}
+                            name={props.catCats[i].name}
+                            email={props.catCats[i].email}
+                        />
+                    )
+                })
+            }
         </div>
     )
 }
